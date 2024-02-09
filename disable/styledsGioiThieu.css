@@ -1,0 +1,20 @@
+table{
+    border-collapse: collapse;
+}
+.tieuDe{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 35px;
+    color: blue;
+}
+.noiDung{
+    text-align: justify;
+    
+}tr{
+    font-size: 20px;
+}
+td{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}

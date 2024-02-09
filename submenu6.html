@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trường THPT Xuân Vân</title>
+    <link rel="stylesheet" href="stylesub6.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <nav>
+        <ul class="mainMenu">
+           
+            <li><a href="index.html">Trang chủ</a></li> |
+            <li><a href="gioiThieu.html">Giới thiệu</a></li>|
+            <li><a href="lienHe.html">Liên hệ</a></li>|
+            <li><a href="gopY.html">Góp ý</a></li>|
+            <li>
+                <a href="#">Bộ môn</a>
+                <ul class="subBoMon">
+                    <li><a href="boMonToan.html">Toán</a></li>
+                    <li><a href="boMonLi.html">Lí</a></li>
+                    <li><a href="boMonHoa.html">Hóa</a></li>
+                    <li><a href="boMonVan.html">Văn</a></li>
+                    <li><a href="boMonSu.html">Sử</a></li>
+                    <li><a href="boMonDia.html">Địa</a></li>
+                    <li><a href="boMonGDCD.html">GDCD</a></li>
+                    <li><a href="boMonGDQP.html">GQQP</a></li>
+                </ul>
+            </li>|
+            <li><a target="page" href="https://tracuu.vnedu.vn/">Tra cứu điểm</a></li>
+        </ul>
+    </nav>
+  <section class="noiDung">
+    <article>
+
+        <form action="" method="get" enctype="multipart/form-data">
+            <label for="hoTen">
+                <br>
+                Họ và Tên
+                <br>
+                <input placeholder="Nguyen Van A" type="text" name="hoTen" id="hoTen">
+            </label>
+            <label for="noiTotNgiep">
+                <br>
+                <br>
+                Nơi tốt nghiệp
+                <br>
+                <select name="noiTotNgiep" id="noiTotNgiep">
+                    <option value="THPT XUÂN VÂN"> THPT XUÂN VÂN</option>
+                    <option value="THPT PHÚC NINH"> THPT PHÚC NINH</option>
+                    <option value="THPT KIẾN THIẾT"> THPT KIẾN THIẾT</option>
+                    <option value="THPT TÂN LONG"> THPT TÂN LONG</option>
+                    <option value="THPT TRUNG TRỰC"> THPT TRUNG TRỰC</option>
+                    <option value="THPT SƠN DƯƠNG"> THPT SƠN DƯƠNG</option>
+                </select>
+            </label>
+            <label for="diem">
+                <br>    
+                <br>
+                Điểm trung bình tổng các môn
+                <br>
+                Toán
+                <input type="number" min="0" max="10" step="0.25" name="diemToan" id="diemToan">
+                Văn
+                <input type="number" min="0" max="10" step="0.25" name="diemVan" id="diemVan">
+                Lí
+                <input type="number" min="0" max="10" step="0.25" name="diemLi" id="diemLi">
+                Hóa
+                <input type="number" min="0" max="10" step="0.25" name="diemHoa" id="diemHoa">
+                <br>
+                <br>
+                Sử
+                <input type="number" min="0" max="10" step="0.25" name="diemSu" id="diemSu">
+                Địa
+                <input type="number" min="0" max="10" step="0.25" name="diemDia" id="diemDia">
+                Anh
+                <input type="number" min="0" max="10" step="0.25" name="diemAnh" id="diemAnh">
+                Tin
+                <input type="number" min="0" max="10" step="0.25" name="diemTin" id="diemTin">
+
+            </label>
+            <label for="thiHSG">
+                <br>
+                <br>
+                Đã tham gia thi cuộc thi tuyển học sinh giỏi hay chưa
+                <br>
+                <textarea name="thiHSG" id="thiHSG" cols="30" rows="3"></textarea>
+                <br>
+                <i>(Lưu ý : ghi rõ môn đã thi và thành tích đạt được)</i>
+
+            </label>
+            <label for="hoanCanhGiaDinh">
+                <br>                
+                <br>
+                Hoàn cảnh gia đình
+                <br>
+                <textarea name="hoanCanhGiaDinh" id="hoanCanhGiaDinh" cols="30" rows="3"></textarea>
+                <br>
+                <i>(Lưu ý : ghi rõ hoàn cảnh gia đinh khu vực sinh sống có ưu tiên hay không)</i>
+            </label>
+            <label for="subMit">
+                <br>
+                    <input type="submit" value="Gửi">
+            </label>
+
+            <label for="reset"> 
+                <input type="reset" value="Nhập Lại">
+            </label>
+        </form>
+      
+    </article>
+    <aside>
+        <ul class="subMenu">
+            <li><a href="submenu1.html">Thông tin tuyển sinh</a></li>
+            <li><a href="submenu2.html">Đăng  kí tuyển sinh</a></li>
+            <li><a href="submenu3.html">Hỗ trợ đăng kí tuyển sinh</a></li>
+            <li><a href="submenu4.html">Lịch trình sự kiện</a></li>
+            <li><a href="submenu5.html">Tra cứu lịch học </a></li>
+            <li><a style="font-weight: bold;text-shadow: 2px 1px black; color: rgb(232, 190, 22);" href="submenu6.html">Xét tuyển học bổng</a></li>
+            <li><a href="submenu7.html">Đăng kí ôn học sinh giỏi</a></li>
+            <li><a href="submenu8.html">Chi tiết đóng học</a></li>
+        </ul>
+        
+    </aside>
+  </section>
+    <footer>
+        <div class="moTaFooter">
+            <h1>Trường THPT XUÂN VÂN</h1>
+            <br>
+            <i>Đia chỉ : Xóm Chợ ,Xã Xuân Vân, Huyện Yên Sơn, Tỉnh Tuyên Quang</i>
+            <br>
+            <p>Số điện thoại : <b>0388955747</b></p>
+            <p>Email :<b>thptxuantuyenquang@gmail.com</b></p>
+        </div>
+    
+
+    </footer>
+</body>
+</html>
